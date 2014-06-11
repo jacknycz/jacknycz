@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.site-header {
+	padding: 1em 0;
+	background: rgba(132,86,86,.6);
+	border-bottom: 3px solid rgba(255,255,255,.2);
+}
+
+.site-title {
+	margin: 0;
+	
+	svg {
+		max-height: 60px;
+		margin: 20px 0;
+	}
+	.accents {
+		fill: rgba(255,255,255,.5);
+	}
+	.letters {
+		fill: rgba(255,255,255,1);
+	}
+	
+	&:hover {
+		.accents {
+			fill: #fff;
+		}
+		.letters {
+			&.one {
+				fill: rgba(255,255,255,.2);
+			}
+			&.two {
+				fill: rgba(255,255,255,.3);
+			}
+			&.three {
+				fill: rgba(255,255,255,.4);
+			}
+			&.four {
+				fill: rgba(255,255,255,.5);
+			}
+			&.five {
+				fill: rgba(255,255,255,.6);
+			}
+			&.six {
+				fill: rgba(255,255,255,.7);
+			}
+			&.seven {
+				fill: rgba(255,255,255,.8);
+			}
+			&.eight {
+				fill: rgba(255,255,255,.9);
+			}
+		}
+	}
+}
+
+.site-description {
+	margin: 0;
+}

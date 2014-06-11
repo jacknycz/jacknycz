@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Home Page Template
+   ========================================================================== */
+
+.main-graphic {
+	h2 {
+		color: #fff;
+		font-size: 30px;
+		text-shadow: 0 0 7px rgba(0,0,0,.4);
+	}
+}
+
+.work-preview {
+	background: rgba(255,255,255,.7);
+	padding: $vspacing 0;
+	
+	img {
+		border: 10px solid rgba(0,0,0,.4);
+	}
+}
+
+.blog-preview {
+	padding: $vspacing 0;
+	color: #fff;
+	text-shadow: 0 0 7px rgba(0,0,0,.4);
+	
+	h2 {
+		color: #fff;
+	}
+	
+	img {
+		border: 10px solid rgba(0,0,0,.4);
+	}
+}

@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+@include bp(tablet) {
+	.content-area {
+		margin-top: $vspacing;
+		
+		.entry-content {
+			padding: 20px 40px;
+			
+			& *:first-child {
+				margin-top: 0;
+			}
+			& *:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	
+	.site-content .widget-area {
+		float: right;
+		overflow: hidden;
+		width: 25%;
+	}
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
